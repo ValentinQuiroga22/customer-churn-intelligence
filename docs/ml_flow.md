@@ -235,3 +235,23 @@ This allows retention teams to:
 7. High-risk customers churn nearly 7x more often than low-risk customers.
 
 8. Churn prediction can be operationalized into customer risk scores for targeted retention campaigns.
+
+## SHAP Explainability Analysis
+
+SHAP analysis confirmed the main churn drivers identified during EDA and Logistic Regression modeling.
+
+Top features influencing churn predictions:
+
+1. Customer tenure
+2. Fiber optic internet service
+3. Two-year contract
+4. Total charges
+5. Monthly charges
+6. One-year contract
+
+Key insights:
+
+- Customer tenure is the strongest predictor of churn.
+- Long-term contracts significantly reduce churn risk.
+- Fiber optic customers show elevated churn risk.
+- Pricing-related variables play an important role in customer retention.
