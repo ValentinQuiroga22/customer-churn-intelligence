@@ -1,37 +1,113 @@
 # Customer Churn Intelligence
 
-End-to-end customer churn prediction project combining:
+An end-to-end Machine Learning and Generative AI project designed to predict customer churn, explain model decisions, and generate executive retention reports.
 
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Machine Learning
-- AI-powered Customer Risk Reports
-- Business Intelligence
+## Project Overview
 
-## Project Workflow
+This project combines:
 
-1. Data Cleaning
-2. Exploratory Data Analysis
-3. Feature Engineering
-4. Churn Prediction Model
-5. Customer Risk Scoring
-6. AI Risk Intelligence
-7. Business Dashboard
+* Data Cleaning & Feature Engineering
+* Customer Churn Prediction using Machine Learning
+* Explainable AI with SHAP
+* Risk Scoring & Customer Segmentation
+* Automated Retention Recommendations
+* LLM-Powered Executive Reports using Gemini
 
-## Results
+The goal is not only to predict which customers are likely to churn, but also to explain why and provide actionable business recommendations.
 
-- Accuracy: 80.6%
-- High Risk customers identified: 209
-- Churn rate among High Risk customers: 71.8%
+## Tech Stack
 
-## Technologies
+* Python
+* Pandas
+* NumPy
+* Scikit-Learn
+* SHAP
+* Google Gemini API
+* Jupyter Notebook
+* Git & GitHub
 
-- Python
-- Pandas
-- Scikit-Learn
-- Jupyter Notebook
-- Power BI 
+## Project Pipeline
 
-## Repository Structure
+Raw Data
 
-...
+↓
+
+Data Cleaning
+
+↓
+
+Feature Engineering
+
+↓
+
+Machine Learning Model
+
+↓
+
+Churn Probability
+
+↓
+
+SHAP Explainability
+
+↓
+
+Business Recommendations
+
+↓
+
+Gemini Executive Reports
+
+## Key Features
+
+### Churn Prediction
+
+Predicts customer churn probability using supervised machine learning.
+
+### Explainable AI
+
+Uses SHAP values to identify the main drivers behind each prediction.
+
+### Risk Scoring
+
+Classifies customers into:
+
+* Low Risk
+* Medium Risk
+* High Risk
+
+### Retention Recommendations
+
+Generates business actions based on churn drivers.
+
+### AI Executive Reports
+
+Uses Gemini to transform model outputs into concise business reports for stakeholders.
+
+## Example Output
+
+Customer ID: 5178-LMXOP
+
+Risk Score: 85.5%
+
+Main Churn Drivers:
+
+* Short customer tenure
+* Fiber optic internet service
+* Electronic check payment method
+* Month-to-month contract
+
+Recommended Actions:
+
+* Launch onboarding retention campaign
+* Review customer satisfaction with Fiber Optic service
+* Promote automatic payment methods
+* Offer discount for annual contracts
+
+## Future Improvements
+
+* Interactive Streamlit Application
+* Power BI Dashboard
+* Batch Report Generation
+* Customer Retention Simulation
+* Model Monitoring Pipeline
