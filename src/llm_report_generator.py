@@ -10,9 +10,15 @@ api_key = os.getenv("GEMINI_API_KEY") or st.secrets["GEMINI_API_KEY"]
 
 genai.configure(api_key=api_key)
 
-model = genai.GenerativeModel("gemini-1.5-flash")
-
 
 def generate_llm_report(prompt):
 
-    return "DEPLOY TEST OK"
+    try:
+        model = genai.GenerativeModel("gemini-1.5-flash")
+
+        response = model.generate_content("Say hello")
+
+        return response.text
+
+    except Exception as e:
+        return f"ERROR: {str(e)}"
