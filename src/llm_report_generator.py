@@ -15,10 +15,4 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 
 def generate_llm_report(prompt):
 
-    try:
-        response = model.generate_content(prompt)
-
-        return response.text
-
-    except Exception as e:
-        return f"ERROR: {str(e)}"
+    return "DEPLOY TEST OK"
