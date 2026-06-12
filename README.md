@@ -74,8 +74,6 @@ Includes:
 
 ## Dashboard Preview
 
-Add screenshots here.
-
 ### Main Dashboard
 
 ![Dashboard](docs/dashboard.jpeg)
